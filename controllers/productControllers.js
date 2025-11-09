@@ -1,8 +1,8 @@
 const productService = require("../services/productService");
 
 const getAllProduct = (req, res) => {
-    const message = productService.getAllProduct();
-    res.send(message);
+    const message = productService.getAllProduct();// this is html file
+    res.sendFile(message);// send html to as resposne
 };
 
 const getProductById = (req, res) => {
