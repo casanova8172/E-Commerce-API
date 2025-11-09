@@ -1,0 +1,20 @@
+// Get all products
+const getAllProduct = () => {
+    return "Fetching all products";
+};
+
+// Get product by ID
+const getProductById = (id) => {
+    return `Fetching product with ID: ${id}`;
+};
+
+// Add new product
+const addNewProduct = () => {
+    return "Adding a new product";
+};
+
+module.exports = {
+    getAllProduct,
+    getProductById,
+    addNewProduct
+};
