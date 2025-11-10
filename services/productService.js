@@ -11,7 +11,7 @@ const getProductById = (id) => {
 
 // Add new product
 const addNewProduct = () => {
-    return "Adding a new product";
+    return "";
 };
 
 module.exports = {
